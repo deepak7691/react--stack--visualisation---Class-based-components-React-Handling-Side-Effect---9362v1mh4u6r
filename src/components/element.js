@@ -1,6 +1,6 @@
 import React from 'react';
-function Element() {
-  return <div className="element"></div>;
+function Element({ val }) {
+  return <div className="element">{val}</div>;
 }
 
 export default Element;
